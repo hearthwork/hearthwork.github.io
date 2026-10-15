@@ -1,0 +1,13 @@
+:root{--ink:#2b2622;--muted:#6b625a;--bg:#fbf7f1;--card:#fff;--accent:#b5562e;--line:#e8dfd3}
+*{box-sizing:border-box}body{margin:0;font:17px/1.65 Georgia,"Iowan Old Style",serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}a{color:var(--accent)}
+header.site{border-bottom:1px solid var(--line);background:#fff}header.site .wrap{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;flex-wrap:wrap;gap:8px}
+.brand{font:700 1.4rem/1 Georgia,serif;color:var(--ink);text-decoration:none;letter-spacing:.02em}nav a{margin-left:16px;text-decoration:none;color:var(--muted);font-family:system-ui,sans-serif;font-size:.95rem}
+h1,h2,h3{line-height:1.25}.hero{padding:48px 0 24px}.hero h1{font-size:2.6rem;margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h3{margin:.2em 0}.card h3 a{color:var(--ink);text-decoration:none}.kicker{font:600 .78rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--accent);margin:0}
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 18px;border-radius:999px;text-decoration:none;font-family:system-ui,sans-serif}.btn.disabled{background:#a59a8f;pointer-events:none}
+.price{font:700 1.3rem system-ui,sans-serif}.posts li{margin:.4em 0}.signup{background:#fff;border:1px dashed var(--line);border-radius:12px;padding:18px;margin:32px 0}
+.post,.product{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px 28px;margin:28px 0}.cta{margin-top:24px}
+footer.site{border-top:1px solid var(--line);margin-top:48px;padding:20px 0;color:var(--muted);font-size:.9rem}.small{font-size:.85rem;color:var(--muted)}
+@media print{header.site,footer.site,nav,.btn,.signup{display:none}body{background:#fff;color:#000;font-size:12pt}.post,.product,.card{border:none;padding:0}a{color:#000}}
