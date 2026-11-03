@@ -10,4 +10,10 @@ h1,h2,h3{line-height:1.25}.hero{padding:48px 0 24px}.hero h1{font-size:2.6rem;ma
 .price{font:700 1.3rem system-ui,sans-serif}.posts li{margin:.4em 0}.signup{background:#fff;border:1px dashed var(--line);border-radius:12px;padding:18px;margin:32px 0}
 .post,.product{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px 28px;margin:28px 0}.cta{margin-top:24px}
 footer.site{border-top:1px solid var(--line);margin-top:48px;padding:20px 0;color:var(--muted);font-size:.9rem}.small{font-size:.85rem;color:var(--muted)}
-@media print{header.site,footer.site,nav,.btn,.signup{display:none}body{background:#fff;color:#000;font-size:12pt}.post,.product,.card{border:none;padding:0}a{color:#000}}
+.related{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:28px 0}
+.related h2{margin:0 0 6px;font-size:1.25rem}
+.related ul{margin:10px 0 0;padding-left:1.2em}
+.related li{margin:.35em 0}
+.related a{text-decoration:none}
+.related a:hover{text-decoration:underline}
+@media print{header.site,footer.site,nav,.btn,.signup,.related{display:none}body{background:#fff;color:#000;font-size:12pt}.post,.product,.card{border:none;padding:0}a{color:#000}}
